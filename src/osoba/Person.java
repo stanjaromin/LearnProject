@@ -44,7 +44,7 @@ public class Person {
 
     public String getFullName(){
         if (firstName.isEmpty() & lastName.isEmpty()){
-            return null;
+            return "";
         }
         if (firstName.isEmpty()){
             return lastName;
@@ -52,6 +52,6 @@ public class Person {
         if (lastName.isEmpty()){
             return firstName;
         }
-        return null;
+        return firstName + " " +lastName;
     }
 }
