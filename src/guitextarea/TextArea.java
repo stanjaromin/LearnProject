@@ -20,7 +20,7 @@ public class TextArea extends JFrame{
              @Override
              public void actionPerformed(ActionEvent e) {
                  for (Map.Entry me: m.entrySet())
-                     t.append(me.getKey()+":"me.getValue()+"\n");
+                     t.append(me.getKey()+":"+me.getValue()+"\n");
              }
          });
          c.addActionListener(new ActionListener() {
