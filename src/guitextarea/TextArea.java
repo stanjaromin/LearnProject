@@ -32,6 +32,7 @@ public class TextArea extends JFrame {
             }
         });
         setLayout(new FlowLayout());
+        //add(t);
         add(new JScrollPane(t));
         add(b);
         add(c);
